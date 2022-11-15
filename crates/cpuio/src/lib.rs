@@ -1,7 +1,7 @@
 //! CPU-level input/output instructions, including `inb`, `outb`, etc., and
 //! a high level Rust wrapper.
 
-#![feature(llvm_asm, const_fn)]
+// #![feature(llvm_asm, const_fn)] // removed in Rust 1.59.0
 #![no_std]
 
 use core::marker::PhantomData;
